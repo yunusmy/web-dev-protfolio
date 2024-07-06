@@ -9,6 +9,9 @@
     "wdth" 100;
 }
 /* shared style */
+.sd-bg{
+  background-color:#fff8f3;
+}
 .text-primary{
   color:#fd6e0a;
 }
@@ -23,8 +26,19 @@
   font-size:20px;
   border:none;
   border-radius:5px;
+  margin-right: 5px;
 
 
+}
+.section-title{
+  font-size:35px;
+  font-weight:bold;
+  color:#181818;
+}
+
+.section-description{
+  font-size:18px;
+  color:#757575;
 }
 .dark-2{
   color:#474747;
@@ -67,6 +81,7 @@ nav ul{
 .banner{
   display:flex;
   justify-content: space-between;
+  align-items: center;
 }
 .banner-content{
   max-width:580px;
@@ -76,12 +91,18 @@ nav ul{
 .banner-greetings{
   font-size:45px;
   font-weight:600;
+  margin:0px;
 }
 
 .banner-title{
   font-weight:bold;
   font-size:85px;
+  margin:0px;
 }
 .banner-protflio-img{
   width:580px;
+}
+/* about */
+.about{
+  border-radius: 10px;
 }
