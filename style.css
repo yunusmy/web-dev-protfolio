@@ -165,3 +165,24 @@ footer input[type="text"] ,input[type="email"]{
   margin-bottom: 20px;
 
 }
+
+
+/* resume section style */
+
+.resume-contriner{
+  display:flex;
+  /* justify-content: space-between; */
+  gap:24px;
+}
+
+.experience-sub-title{
+  font-size:20px;
+  font-weight:400;
+}
+.experience-description, .experience-sub-title{
+  color:#757575;
+}
+
+.resume hr{
+  margin:30px 4px;
+}
